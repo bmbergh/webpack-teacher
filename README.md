@@ -44,7 +44,7 @@ Notice in `Webpack-easy` there are two files: One for *development* and one for 
 Edit your `package.json`
 
 ```{
-  "name": "webpack-howto",
+  "name": "teach-webpack",
   "version": "1.0.0",
   "description": "Intro to Webpack,
   "scripts": {
