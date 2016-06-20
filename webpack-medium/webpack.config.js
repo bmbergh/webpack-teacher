@@ -6,7 +6,9 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 import NpmInstallPlugin from 'npm-install-webpack-plugin'; //which automatically installs npm dependencies
 import autoprefixer from 'autoprefixer';
 
-const TARGET = process.env.npm_lifecycle_event;
+const TARGET = process.env.npm_lifecycle_event; // environment variable is set to whichever stage of the cycle is being executed.  
+//So, you could have a single script used for different parts of the process which switches based on what's currently happening.
+
 console.log("target event is " + TARGET);
 
 var common = {
